@@ -2,14 +2,14 @@
 function criarDbBike(){
 let bikeDB=[];
 for(let i=0;i<6;i++){
-    let nome = prompt("nome");
-    let material = prompt("material");
-    let color = prompt("color");
-    let weight = prompt("peso");
-    let frameSize = prompt("frame");
-    let torque = prompt("torque");
-    let chain = prompt("chain");
-    let chainType = prompt("tipo corrente");
+    let nome = prompt("nome").toString();
+    let material = prompt("material").toString();
+    let color = prompt("color").toString();
+    let weight = prompt("peso").toString();
+    let frameSize = prompt("frame").toString();
+    let torque = prompt("torque").toString();
+    let chain = prompt("chain").toString();
+    let chainType = prompt("tipo corrente").toString();
     let bike = {
         nome:nome,
         material:material,
@@ -89,9 +89,9 @@ if(localStorage.getItem("acessoriesDB")==null){
 function criaAcessoriesDB(){
     let acessoriesDB = [];
     for(let i=0;i<5;i++){
-        let nome = prompt("nome acessories");
-        let cor= prompt("cor acessorio");
-        let peso = prompt("peso acessorio");
+        let nome = prompt("nome acessories").toString();
+        let cor= prompt("cor acessorio").toString();
+        let peso = prompt("peso acessorio").toString();
         let acessories={
             nome: nome,
             cor:cor,
