@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  black;
+   
+}
+
+nav{
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+    width: 98.82px;
+    height: 38.8px;
+    
+}
+
+.searchBar{
+    display: flex;
+    
+
+}
+nav input{
+    width: 431px;
+    height: 44px;
+    background-color: #3D3D3D;
+    
+    color: white;
+
+}
+nav button{
+    height: 44px;
+    width: 40px;
+    background-color: #101010;
+    
+}
+nav button i{
+    color: white;
+}
+.ancors{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    color: #B0B0B0;
+    
+}
+.ancors li a{
+    transition: all 1s;
+    position: relative;
+    text-decoration: none;
+}
+.iconsNav{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.iconsNav li img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+}
+
+.barra-pesquisa-produtos{
+    width: 100%;
+    height: 50px;
+    background-color: #1C1B1B;
+    color: #EE3C08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+.bike-obj{
+    width: 20%;    
+}
+.bike-obj img{
+    background-color: #1C1B1B;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bike-obj button{
+    width: 100%;
+    height: 20%;
+    background-color: #EE3C08;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.bike-obj-info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-items: center;
+}
+.bike-obj-info span{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    
+}
+
+.container-todos-produtos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    gap:50px;
+    margin-left: 40px;
+    width: 70%;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    width: 35%;
+    
+}
+.carrinho button{
+    background-color: white;
+    color: #EE3C08;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#compras{
+    width: 55%;
+    min-height: 200px;
+   
+    top: 200%;
+    left: 15%;
+
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items:center;
+}
+
+.dadosCompra img{
+    width: 150px;
+    height: 100px;
+}
+.dadosCompra {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    
+    border:2px solid white
+    
+    
+}
+
+.infoCompra{
+    display: flex;
+    flex-direction: column;
+}
+.infoCompra span{
+    color:#EE3C08;
+}
+
+.ancors li a{
+    text-decoration: none;
+}
+.ancors li a:visited{
+    color: #B0B0B0;
+  background-color: transparent;
+  text-decoration: none;
+}
+.ancors li a:hover{
+    color: #C52A09;
+    background-color: transparent;
+  text-decoration: none;
+
+}
+

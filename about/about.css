@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Imagens/bike4kpng.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+}
+nav{
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav img{
+    width: 98.82px;
+    height: 38.8px;
+    
+}
+
+.searchBar{
+    display: flex;
+    
+
+}
+nav input{
+    width: 431px;
+    height: 44px;
+    background-color: #3D3D3D;
+    
+    color: white;
+
+}
+nav button{
+    height: 44px;
+    width: 40px;
+    background-color: #101010;
+    
+}
+nav button i{
+    color: white;
+}
+.ancors{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    color: #B0B0B0;
+}
+.ancors li a{
+    transition: all 1s;
+    position: relative;
+    text-decoration: none;
+}
+.iconsNav{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.iconsNav li img{
+    width: 24px;
+    height: 24px;
+
+}
+
+.textosobre {
+    color:#C52A09;
+    font-size: 30px;
+    transition: all 1s;
+    width: 50%;
+    position: relative;
+    top:200px;
+    left:450px;
+}
+.textosobre p{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.textosobre:hover{
+    transform: scale(1.2);
+    border: 1px solid #C52A09 ;
+}
+
+
+
+
+.ancors li a:visited{
+    color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.ancors li a:hover{
+    color: #C52A09;
+    background-color: transparent;
+  text-decoration: none;
+
+}

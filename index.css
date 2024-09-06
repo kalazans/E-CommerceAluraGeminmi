@@ -1,0 +1,984 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #1C1B1B;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid #EE3C08;
+    z-index: 1;
+    background-color: #1C1B1B;
+}
+
+nav img{
+    width: 98.82px;
+    height: 38.8px;
+  
+    
+}
+
+.searchBar{
+    display: flex;
+    
+
+}
+nav input{
+    width: 431px;
+    height: 44px;
+    background-color: #3D3D3D;
+    
+    color: white;
+
+}
+nav button{
+    height: 44px;
+    width: 40px;
+    background-color: #101010;
+    
+}
+nav button i{
+    color: white;
+}
+.ancors{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    color: #B0B0B0;
+}
+.ancors li a{
+    transition: all 1s;
+    position: relative;
+    text-decoration: none;
+}
+.iconsNav{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.iconsNav li img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+}
+.container-main-1{
+    width: 552px;
+    height: 418px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 5%;
+    
+    
+}
+.container-main-1 p:first-child {
+    display: flex;
+    background-color: #3D3D3D;
+    width: 163px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    color:#E7E7E7;
+}
+.container-main-1 h1{
+    width: 552px;
+    height: 144px;
+    font-size: 60px;
+    color:#E7E7E7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.body-text{
+    color: #E7E7E7;
+    width: 552px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.buttons-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+    position: relative;
+    top:110px;
+}
+.buttons-container-1 :first-child{
+    background-color: #C52A09;
+    color: white;
+    width: 264px;
+    height: 64px;
+    font-size: 30px;
+    border-radius: 4px;
+    transition: all 2s ease;
+    position: relative;
+    cursor: pointer;
+    
+}
+.buttons-container-1 :last-child{
+    background-color: #F6F6F6;
+    color:#EE3C08;
+    width: 264px;
+    height: 64px;
+    font-size: 30px;
+    border-radius: 4px;
+    transition: all 2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-container-2{
+    position: relative;
+    width: 592px;
+    height: 462px;
+}
+.main-container-2 img:nth-child(1){
+    position: absolute;
+    left: 28.9%;
+    bottom: 39%;
+}
+.main-container-2 img:nth-child(2){
+    position: absolute;
+    z-index: 1;
+    bottom: 43%;
+}
+
+.main-container-2 img:nth-child(3){
+    position: absolute;
+    top: 60%;
+    width: 610px;
+}
+
+.info-cards-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:200px;
+    gap:100px;
+}
+.info-cards-group span:nth-child(1){
+    color: white;
+    font-size: 30px;
+
+}
+
+.todos-cards{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    background-color: #101010;
+    width: 275px;
+    height: 371px;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;;
+     
+   
+}
+.card-inside{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.moldura{
+    width: 60px;
+    height: 60px;
+    background-color: #1C1B1B;
+    position: absolute;
+    bottom: 250px;
+    border-radius: 5px;
+}
+
+
+.card-inside :nth-child(2){
+    font-size: 25px;
+}
+.card-inside :nth-child(3){
+    font-size: 18px;
+}
+
+.card-final-bestSeller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height: 723px;
+}
+
+.bestSeller{
+    width: 100%;
+    position: relative;
+    top:300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap:30px;
+}
+.bestSeller h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.twoCards{
+    width: 443px;
+    height: 473px;
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 10px;
+}
+
+.card1{
+    background-color: #EE3C08;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 203px;
+    gap:30px;
+    border-radius: 10px;
+}
+.card1 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.card1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:#EE3C08;
+    width: 192px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    border: 10px;
+    
+}
+.card2 span{
+    color: #EE3C08;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top:50px;
+    left:30px;
+}
+
+.card2 h3{
+    font-size: 40px;
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+
+.card2 p{
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.produtoBestSeller{
+    background-color: #1C1B1B;
+    width: 734px;
+    height: 473px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px 15px grey;
+    
+}
+.infoText{
+    
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.infoText h3{
+    color:#FFCDA9;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+.infoText p{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.infoText a{
+    width: 192px;
+    background-color:#EE3C08 ;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.infoImagem img{
+    position: relative;
+    right: 20px;
+}
+
+.container-infoProduto{
+    display: flex;
+    gap:50px;
+    position: relative;
+    top:20px;
+}
+.container-infoProduto .info{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;
+    color: white;
+}
+.our-categories{
+    width: 100%;
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.our-categories-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.our-categories-text :nth-child(1){
+    color:#EE3C08;
+    font-size: 50PX;     
+}
+.our-categories-text :nth-child(2){
+    color: white;
+    font-size: 30px;
+}
+.our-categories-text :nth-child(3){
+    color: white;
+    font-size: 30px;
+}
+.kids-bike{
+    width:581px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+
+
+.kids-bike :nth-child(1){
+    font-size:30px;
+    font-weight: bold;
+}
+.kids-bike img {
+    z-index: 2
+    
+}
+
+.kids-bike a{
+    width: 250px;
+    background-color:#EE3C08 ;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    
+}
+.our-categories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 616px;
+    background-color: white;
+    gap:25px;
+    border-radius: 10px;
+    
+}
+
+.our-categories-card p{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.our-categories-card a{
+    width: 192px;
+    background-color:white ;
+    color: #EE3C08;
+    border: 2px solid #EE3C08;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.our-categories-2cards{
+    display: flex;
+    width: 616px;    
+}
+
+
+
+.our-categories-bigcard{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.colum-cards2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-products{
+    position: relative;
+    top: 400px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 1729px;
+}
+.our-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    margin-top: 50px;
+}
+.our-products p:first-child {
+    font-size: 25px;
+    color: #EE3C08;
+}
+.our-products h3{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+}
+.our-products p:last-child{
+    color:white;
+    font-size: 18px;
+}
+.container-bikes-DB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap:120px
+    
+}
+.bike-obj{
+    width: 377px;
+    
+}
+.bike-obj img{
+    background-color: #1C1B1B;
+    width: 100%;
+    height: 323px;
+    border-radius: 10px 10px 0px 0px;
+}
+.bike-obj button{
+    width: 369px;
+    height: 100%;
+    background-color: #EE3C08;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.bike-obj-info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-items: center;
+}
+.bike-obj-info span{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    
+}
+.container-acessories-DB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap:120px
+}
+
+.parts-acessories{
+    position: relative;
+    top: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.part-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    margin-top: 50px;
+}
+.part-text h3{
+    color: #EE3C08;
+    font-size: 30px;
+    font-style: bold;
+}
+.part-text p:nth-child(2) {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.part-text p:nth-child(3){
+    color: black;
+    font-size: 25px;
+}
+.bike-acessories-obj{
+    width: 377px;
+    box-shadow: 20px 20px 50px 15px grey;    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bike-acessories-obj img{
+    background-color: white;
+    width: 100%;
+    height: 323px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid black;
+}
+.bike-acessories-obj button{
+    border: 2px solid#EE3C08;
+    width: 250px;
+    background-color:white;
+    color: #EE3C08;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.acessories-obj-info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 150px;
+    gap: 30px;
+    margin-top: 10px;
+}
+.acessories-obj-info span{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    width: 50%;
+}
+
+.footer{
+    position: relative;
+    top: 400px;
+    width: 100%;
+    background-color: black ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.footer div{
+    margin-top: 10px;
+}
+
+.endereco{
+    
+    width: 30%;
+   
+}
+
+.endereco ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.endereco ul li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+
+}
+.endereco ul li p{
+    transition: color 1s;
+    
+}
+
+.endereco ul li p:hover{
+    color: #EE3C08;
+}
+
+.endereco ul :nth-child(2) img{
+    margin-right: 14px;
+    
+}
+
+.endereco ul li p{
+    color: white;
+}
+
+.endereco ul li span{
+    color:#EE3C08 ;
+}
+
+
+.info-company{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+   
+}
+.info-company p{
+    color:white;
+    font-size: 20px;
+    transition: color 1s;
+}
+
+.info-company ul{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.info-company ul li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.info-company ul li a{
+    transition:  color 1s;
+    color: white;
+}
+
+.info-company ul a:hover{
+    color:#EE3C08;
+}
+.info-company  p:hover{
+    color:#EE3C08;
+}
+
+
+.social-media{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+   
+}
+
+.social-media p {
+    color: white;
+    font-size: 20px;
+    transition: color 1s;
+}
+
+.social-media p:hover{
+    color:#EE3C08;
+}
+.social-media ul{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+}
+
+
+.rodape{
+    position: relative;
+    top: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1B1B;
+    color: white;
+    font-size: 20px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #EE3C08;
+}
+
+/*animations*/
+
+/*.ancors a::before{
+    content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: #EE3C08;
+  transition: all 2s;
+  z-index: -1;
+  
+}/
+
+.ancors li a:hover{
+    color: white;
+    
+
+}
+
+.ancors  li a:hover::before{
+    width:100%;
+
+}*/
+
+.ancors li a:hover{
+    color: #EE3C08;
+    cursor: pointer;
+}
+
+
+.buttons-container-1 :nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    transition: all 2s ease;
+    z-index:-1;
+    
+    
+    
+}
+
+.buttons-container-1 :nth-child(1):hover::before{
+    animation-name: mudarcor;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+  
+    
+    animation-fill-mode: both;
+    
+    
+}
+
+.buttons-container-1 :nth-child(1):hover{
+    color: #EE3C08;
+    z-index: 1;
+}
+
+@keyframes mudarcor{
+    0%{
+        width: 0%;
+        background-color: white;
+        z-index: -1;
+    }
+    
+    100%{
+        width: 100%;
+        background-color: white;
+        z-index: -1;
+    }
+}
+
+.buttons-container-1 :nth-child(2)::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    transition: all 2s ease;
+    z-index:-1;
+    
+    
+    
+}
+
+.buttons-container-1 :nth-child(2):hover::before{
+    animation-name: mudarcorinversa;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+  
+    
+    animation-fill-mode: both;
+    
+    
+}
+
+.buttons-container-1 :nth-child(2):hover{
+    color: white;
+    z-index: 1;
+}
+
+@keyframes mudarcorinversa {
+    0%{
+        width: 0%;
+        background-color: #EE3C08;
+        z-index: -1;
+    }
+    100%{
+        width: 100%;
+        background-color: #EE3C08;
+        z-index: -1;
+    }
+
+    
+}
+
+.card{
+    transition: all 1s;
+    position: relative;
+    
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top:0%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease;
+    border: 2px solid;
+    border-color: transparent;
+    
+}
+
+.card:hover{
+    color:#EE3C08;
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+    
+}
+
+.card:hover::before{
+    border: 3px solid #EE3C08;
+
+}
+
+.bike-obj{
+    transition: all 2s ease;
+    position: relative;
+    border: 5px solid transparent;
+    border-radius: 10px;;
+}
+
+
+.bike-obj:hover{
+    transform: scale(1.2);
+    border-color: #EE3C08;
+}
+.ancors li a:visited{
+    color: #B0B0B0;
+  background-color: transparent;
+  text-decoration: none;
+}
+.ancors li a:hover{
+    color: #C52A09;
+    background-color: transparent;
+  text-decoration: none;
+
+}
+
+
+
+
